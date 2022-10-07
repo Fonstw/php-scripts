@@ -1,5 +1,8 @@
 <?php
 
+// This has been tested on a macOS host to work.
+// This will not work on a Windows host.
+
 exec("netstat -nr | grep default", $ip_output);
 $ip_output = implode("\n", $ip_output);
 preg_match_all('/(\d{1,3}.){3}\d{1,3}/', $ip_output, $matches);

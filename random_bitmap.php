@@ -1,4 +1,7 @@
 <?php
+
+// Courtesy of Bo Allen (boallen.com)
+
 // Requires the GD Library
 header("Content-type: image/png");
 $im = imagecreatetruecolor(512, 512)

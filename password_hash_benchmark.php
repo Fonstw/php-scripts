@@ -1,5 +1,7 @@
 <?php
 
+// Courtesy of php.net.
+
 $timeTarget = 0.05; // 50 milliseconds 
 
 $cost = 8;
