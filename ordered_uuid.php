@@ -50,7 +50,7 @@ class OrderedUuidGenerator
 		$base_uuid .= dechex(random_int(8, 11));
 		// Next 15 are random and the MAC address.
 		$base_uuid .= self::random_hex(3);
-		$base_uuid .= self::get_mac_hex('44d45487da17');
+		$base_uuid .= self::get_mac_hex();
 
 		return $base_uuid;
 	}
